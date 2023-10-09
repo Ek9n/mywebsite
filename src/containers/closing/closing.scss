@@ -1,0 +1,26 @@
+img {
+  width: 3vw;
+}
+
+.links-closing {
+  display: grid;
+  grid-template-columns: 1.5fr 0.1fr 1.5fr;
+  grid-template-rows: 1fr;
+  gap: 0px 0px;
+  grid-template-areas: ". . .";
+}
+
+.link,
+.link-row {
+  align-self: center;
+  text-align: center;
+  cursor: pointer;
+}
+
+.links {
+  padding: 8%;
+}
+//TODO: check how to access the 1st child in css
+.l:hover {
+  opacity: 0.8;
+}

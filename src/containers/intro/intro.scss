@@ -1,0 +1,49 @@
+.intro-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+ 
+
+
+  .next-section-butt {
+    margin: auto;
+    cursor: pointer;
+  }
+
+  .next-section-butt:hover {
+    color: aqua;
+  }
+
+  .typewriter {
+    margin-top: 10%;
+    max-width: 70vw;
+    word-break: normal;
+    padding: 0 0 0 10%;
+    // border: 2mm solid black;
+  }
+
+  .typewriter-text {
+    // border-right: solid 5px darkorange;
+    //white-space: nowrap;
+    overflow: hidden;
+    // color: rgba(12, 11, 11, 0.7);
+    //animation: animated-text 2s steps(29, end) 1s 1 normal both;
+  }
+
+  @keyframes animated-text {
+    from {
+      width: 0;
+    }
+    to {
+      width: 100%;
+    }
+  }
+}
+
+/*
+@media screen and (max-width: 900px) {
+  .typewriter-text {
+  
+  }
+}
+*/

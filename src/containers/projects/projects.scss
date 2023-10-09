@@ -1,0 +1,28 @@
+.main {
+  display: grid;
+  grid-template-columns: 1.5fr 0.1fr 1.5fr;
+  grid-template-rows: 1fr;
+  gap: 0px 0px;
+  grid-template-areas: ". . .";
+
+  #arrows-main {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+  }
+  // h1 {
+  //   word-break: anywhere;
+  // }
+
+  .projects-title {
+    writing-mode: vertical-lr;
+    text-orientation: mixed;
+  }
+  .next-section-butt {
+    cursor: pointer;
+  }
+  .next-section-butt:hover {
+    color: aqua;
+  }
+}
